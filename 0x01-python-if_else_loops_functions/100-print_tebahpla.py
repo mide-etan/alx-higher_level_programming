@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-nc = 0
-for n in range(122, 96, -1):
-    if n % 2 == 0:
-        nc = n
+for i in range(ord('z'), ord('a')-1, -1):
+    if i % 2 == 0:
+        print(chr(i).upper(), end='')
     else:
-        nc = n - 32
-    print("{}".format(chr(nc)), end='')
+        print(chr(i), end='')
