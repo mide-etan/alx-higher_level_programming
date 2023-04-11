@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 const [, , arg1] = process.argv;
 
 if (arg1 === undefined) {
