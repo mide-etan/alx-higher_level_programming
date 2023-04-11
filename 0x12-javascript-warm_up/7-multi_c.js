@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 const [, , arg] = process.argv;
 
 const times = parseInt(arg);
