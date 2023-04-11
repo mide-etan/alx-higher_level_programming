@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 const [, , arg1, arg2] = process.argv;
 
 const firstArg = arg1 || 'undefined';
