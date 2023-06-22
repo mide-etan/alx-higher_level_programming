@@ -1,6 +1,6 @@
 /*
  * File: 103-python.c
- * Auth: Noluyolo Ndungane
+ * Auth: mide-etan
  */
 
 #include <Python.h>
